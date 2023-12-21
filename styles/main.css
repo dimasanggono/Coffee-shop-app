@@ -56,6 +56,10 @@ h2 {
 .menu span {
   color: #000;
 }
+.menu .product-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 .menu .btn:focus {
   outline: none !important;
   box-shadow: none !important;
@@ -77,15 +81,6 @@ h2 {
   margin: 10px;
   cursor: pointer;
 }
-.menu .product-item:hover::after {
-  content: "";
-  background-color: #ebebeb;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
 .menu .product-img {
   margin: 20px;
   transition: transform 0.2s;
@@ -97,7 +92,8 @@ h2 {
   transform: scale(1.1);
 }
 .menu .btn-content {
-  margin: 5px;
+  margin-bottom: 20px;
+  margin: 10px 5px 20px 5px;
   background-color: #e2b915;
   border-radius: 15px;
   font-weight: 600;
