@@ -128,6 +128,11 @@ h2 {
   .btn-minus {
     padding: 0px 5px;
   }
+
+  .quantity {
+    width: 35px;
+    text-align: center;
+  }
 }
 
 .cash-pages {
@@ -221,10 +226,8 @@ footer {
   }
 
   .list-cart {
-    padding: 0px 10px;
-
     table {
-      overflow-y: hidden;
+      border-collapse: separate;
     }
   }
   .cash-pages {

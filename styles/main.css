@@ -118,6 +118,10 @@ h2 {
 .list-cart .btn-minus {
   padding: 0px 5px;
 }
+.list-cart .quantity {
+  width: 35px;
+  text-align: center;
+}
 
 .cash-pages {
   height: 100vh;
@@ -195,11 +199,8 @@ footer {
     justify-content: center;
     text-align: center;
   }
-  .list-cart {
-    padding: 0px 10px;
-  }
   .list-cart table {
-    overflow-y: hidden;
+    border-collapse: separate;
   }
   .cash-pages {
     padding: 10px;

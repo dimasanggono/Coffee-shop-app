@@ -5,12 +5,12 @@ $(function () {
   });
 });
 
-const myCarouselElement = document.querySelector("#myCarousel");
+// const myCarouselElement = document.querySelector("#myCarousel");
 
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: false,
-});
+// const carousel = new bootstrap.Carousel(myCarouselElement, {
+//   interval: 2000,
+//   touch: false,
+// });
 
 // init Isotope
 var $grid = $("#product-list").isotope({
@@ -21,9 +21,4 @@ $(".filter-button-group").on("click", "button", function () {
   var filterValue = $(this).attr("data-filter");
   $grid.isotope({ filter: filterValue });
 });
-
-
-
-
-
 
